@@ -11,7 +11,7 @@
 
 <body>
     @include('partials.navbar')
-    <h1 class="text-3xl underline">@yield('container')</h1>
+    @yield('container')
 </body>
 
 </html>
