@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1 class="text-3xl font-bold">{{ $title }}</h1>
+    <h1 class="text-3xl font-bold text-center my-4">{{ $title }}</h1>
 
     <form class="max-w-md mx-auto mb-5" action="/posts">
         @if (request('category'))
